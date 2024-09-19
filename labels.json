@@ -1,0 +1,110 @@
+{
+  "colors": {
+    "^scope:": "fef2c0",
+    "^status:": "1d76db",
+    "^type:": "b60205",
+    "^ui:": "bfd4f2",
+    "^browser:": "c2e0c6",
+    "^need:": "fbca04",
+    "^os:": "5319e7",
+    "^priority:": "e99695"
+  },
+  "labels": [
+    {
+      "description": "Involves changes to API or in-source API documentation",
+      "name": "scope: api"
+    },
+    {
+      "description": "Involves build system/scripts",
+      "name": "scope: build"
+    },
+    {
+      "description": "Involves CI/CD",
+      "name": "scope: ci"
+    },
+    {
+      "description": "Involves documentation such as the readme file and examples",
+      "name": "scope: documentation"
+    },
+    {
+      "description": "Issue or pull request is blocked by another issue or PR",
+      "name": "status: blocked"
+    },
+    {
+      "description": "Issue is being worked on",
+      "name": "status: in progress"
+    },
+    {
+      "description": "Issue or pull request was rejected",
+      "name": "status: rejected"
+    },
+    {
+      "description": "Issue is a bug report",
+      "name": "type: bug"
+    },
+    {
+      "description": "Issue is a feature request",
+      "name": "type: feature request"
+    },
+    {
+      "description": "Pull request is a feature",
+      "name": "type: feature"
+    },
+    {
+      "description": "Pull request is a fix",
+      "name": "type: fix"
+    },
+    {
+      "description": "Pull request is an improvement of an existing feature",
+      "name": "type: improvement"
+    },
+    {
+      "description": "Pull request refactors code",
+      "name": "type: refactor"
+    },
+    {
+      "description": "Help from the community is requested",
+      "name": "need: help"
+    },
+    {
+      "description": "Further information is requested",
+      "name": "need: info"
+    },
+    {
+      "description": "Opinions from the community are requested",
+      "name": "need: opinion"
+    },
+    {
+      "description": "Tests are requested",
+      "name": "need: test"
+    },
+    {
+      "description": "Involves Linux operating systems",
+      "name": "os: linux"
+    },
+    {
+      "description": "Involves macOS operating systems",
+      "name": "os: macos"
+    },
+    {
+      "description": "Involves Windows operating systems",
+      "name": "os: windows"
+    },
+    {
+      "description": "May be handled in the distant future when time allows",
+      "name": "priority: low"
+    },
+    {
+      "description": "Should be handled within a reasonable amount of time",
+      "name": "priority: medium"
+    },
+    {
+      "description": "Should be handled as soon as possible",
+      "name": "priority: high"
+    },
+    {
+      "description": "An urgent resolution is needed with the highest priority",
+      "name": "priority: urgent"
+    }
+  ]
+}
