@@ -67,6 +67,10 @@
       "name": "type: refactor"
     },
     {
+      "description": "Pull request focuses on quality assurance such as addition or improvement of tests",
+      "name": "type: quality assurance"
+    },
+    {
       "description": "Help from the community is requested",
       "name": "need: help"
     },
