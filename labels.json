@@ -11,7 +11,7 @@
   },
   "labels": [
     {
-      "description": "Involves changes to API or in-source API documentation",
+      "description": "Involves API usage and documented behavior",
       "name": "scope: api"
     },
     {
@@ -35,19 +35,23 @@
       "name": "status: in progress"
     },
     {
-      "description": "Issue or pull request was rejected",
-      "name": "status: rejected"
+      "description": "Issue or pull request isn't planned",
+      "name": "status: not planned"
+    },
+    {
+      "description": "Issue or pull request is invalid or not applicable",
+      "name": "status: not applicable"
     },
     {
       "description": "Issue is a bug report",
-      "name": "type: bug"
+      "name": "type: bug report"
     },
     {
       "description": "Issue is a feature request",
       "name": "type: feature request"
     },
     {
-      "description": "Pull request is a feature",
+      "description": "Pull request is a new feature",
       "name": "type: feature"
     },
     {
@@ -55,11 +59,11 @@
       "name": "type: fix"
     },
     {
-      "description": "Pull request is an improvement of an existing feature",
+      "description": "Pull request is an improvement of existing functionality",
       "name": "type: improvement"
     },
     {
-      "description": "Pull request refactors code",
+      "description": "Pull request refactors code without changing behavior",
       "name": "type: refactor"
     },
     {
@@ -91,7 +95,7 @@
       "name": "os: windows"
     },
     {
-      "description": "May be handled in the distant future when time allows",
+      "description": "May be handled in the distant future as time allows",
       "name": "priority: low"
     },
     {
