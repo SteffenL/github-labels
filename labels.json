@@ -15,6 +15,10 @@
       "name": "scope: api"
     },
     {
+      "description": "Involves browser engine",
+      "name": "scope: browser"
+    },
+    {
       "description": "Involves build system/scripts",
       "name": "scope: build"
     },
@@ -25,6 +29,22 @@
     {
       "description": "Involves documentation such as the readme file and examples",
       "name": "scope: documentation"
+    },
+    {
+      "description": "Involves interoperability",
+      "name": "scope: interoperability"
+    },
+    {
+      "description": "Involves performance and optimization",
+      "name": "scope: performance"
+    },
+    {
+      "description": "Involves security",
+      "name": "scope: security"
+    },
+    {
+      "description": "Involves user interface areas such as application lifecycle and window management",
+      "name": "scope: ui"
     },
     {
       "description": "Issue or pull request is blocked by another issue or PR",
@@ -63,12 +83,16 @@
       "name": "type: improvement"
     },
     {
+      "description": "Pull request focuses on quality assurance such as addition or improvement of tests",
+      "name": "type: quality assurance"
+    },
+    {
       "description": "Pull request refactors code without changing behavior",
       "name": "type: refactor"
     },
     {
-      "description": "Pull request focuses on quality assurance such as addition or improvement of tests",
-      "name": "type: quality assurance"
+      "description": "Issue describes a regression",
+      "name": "type: regression"
     },
     {
       "description": "Help from the community is requested",
